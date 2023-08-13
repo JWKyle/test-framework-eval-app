@@ -1,9 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Heyo!  This app is designed to be a simple baseline rails app to be used for implementing and evaluating various testing frameworks.  
+Ultimately, this repo will be softlocked then forked for individual framework buildouts.  
+Thank you and godspeed.
 
-Things you may want to cover:
+Some of these I will add, and some I will omit:
 
 * Ruby version
 
@@ -19,6 +20,6 @@ Things you may want to cover:
 
 * Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+* TODO: Deployment instructions
 
-* ...
+
