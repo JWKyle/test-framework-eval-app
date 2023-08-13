@@ -1,0 +1,9 @@
+<%= form_tag("/multiply", method: "post") do %>
+  <label>Number 1:</label>
+  <%= number_field_tag :number1 %>
+
+  <label>Number 2:</label>
+  <%= number_field_tag :number2 %>
+
+  <%= submit_tag "Multiply" %>
+<% end %>
