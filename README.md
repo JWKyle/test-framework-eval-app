@@ -1,4 +1,4 @@
-# README
+# Welcome to the README! 
 
 Heyo!  This app is designed to be a simple baseline rails app to be used for implementing and evaluating various testing frameworks.  
 Ultimately, this repo will be softlocked then forked for individual framework buildouts.  
