@@ -1,6 +1,6 @@
 class CalculationsController < ApplicationController
-  # def new
-  # end
+  def new
+  end
 
   def multiply
     @number1 = params[:number1].to_f
