@@ -1,2 +1,9 @@
-<h1>Calculations#new</h1>
-<p>Find me in app/views/calculations/new.html.erb</p>
+<%= form_tag("/multiply", method: "post") do %>
+  <label>Number 1:</label>
+  <%= number_field_tag :number1 %>
+
+  <label>Number 2:</label>
+  <%= number_field_tag :number2 %>
+
+  <%= submit_tag "Multiply" %>
+<% end %>
