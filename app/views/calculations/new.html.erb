@@ -1,9 +1,11 @@
-<%= form_tag("/multiply", method: "post") do %>
-  <label>Number 1:</label>
-  <%= number_field_tag :number1 %>
+<%= turbo_frame_tag 'result' do %>
+  <%= form_with url: "/multiply", method: "post", data: { turbo_frame: 'result' } do |form| %>
+    <label>Number 1:</label>
+    <%= form.number_field :number1 %>
 
-  <label>Number 2:</label>
-  <%= number_field_tag :number2 %>
+    <label>Number 2:</label>
+    <%= form.number_field :number2 %>
 
-  <%= submit_tag "Multiply" %>
+    <%= form.submit "Multiply" %>
+  <% end %>
 <% end %>
