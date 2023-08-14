@@ -1,5 +1,9 @@
 <%= turbo_frame_tag 'result' do %>
-  <h1>Multiplication Result:</h1>
-  <p>The result of multiplying <%= @number1 %> and <%= @number2 %> is <%= @result %>.</p>
-  <%= link_to "Try Again", root_path %>
+  <div class="min-h-screen flex items-center justify-center bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-md w-full bg-white p-6 rounded-md">
+      <h1 class="text-2xl font-bold mb-4">Multiplication Result:</h1>
+      <p class="mb-4">The result of multiplying <%= @number1 %> and <%= @number2 %> is <%= @result %>.</p>
+      <%= link_to "Try Again", root_path, class: "text-blue-500 hover:underline" %>
+    </div>
+  </div>
 <% end %>
