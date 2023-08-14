@@ -71,4 +71,5 @@ group :test do
   gem "webdrivers"
 end
 
+gem "webpacker"
 gem "tailwindcss-rails", "~> 2.0"
