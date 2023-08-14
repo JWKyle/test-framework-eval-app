@@ -5,8 +5,9 @@ Ultimately, this repo will be softlocked then forked for individual framework bu
 
 The plan is currently for this app to hold examples of the following:
 * Simple Math _(in progress)_
-* Todo _(in progress)_
-* TODO: _Idealy 2 others_
+* Todo App _(in progress)_
+* TODO: _Idealy 2 others; Likely 1 that covers any other CRUD functions/edges that didn't make it into the Todo app_
+* NOTE: I'm not planning on adding any login testing at this time, since those tests will be covered within the other apps
   
 Thank you and godspeed.
 
